@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>687</width>
+    <height>410</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Kopya</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>351</width>
+     <height>301</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Girilecek Değerler</string>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>167</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>T01 (Çıkış anındaki sıcaklık değeri) :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>80</y>
+      <width>165</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>P01 (Çıkış anındaki basınç değeri) :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>110</y>
+      <width>171</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>                         M1 (Mach Sayısı) : </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>145</y>
+      <width>161</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>            m1 (Kütlesel debi ağırlığı) : </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>7</x>
+      <y>183</y>
+      <width>161</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>                                              alfa : </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>220</y>
+      <width>181</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Rm (Aft çapının uzunluğu) :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>258</y>
+      <width>159</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>                                         gama : </string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtT01">
+    <property name="geometry">
+     <rect>
+      <x>192</x>
+      <y>41</y>
+      <width>133</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtP01">
+    <property name="geometry">
+     <rect>
+      <x>192</x>
+      <y>77</y>
+      <width>133</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtM1">
+    <property name="geometry">
+     <rect>
+      <x>192</x>
+      <y>113</y>
+      <width>133</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtm1">
+    <property name="geometry">
+     <rect>
+      <x>192</x>
+      <y>149</y>
+      <width>133</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtAlfa">
+    <property name="geometry">
+     <rect>
+      <x>192</x>
+      <y>185</y>
+      <width>133</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtRm">
+    <property name="geometry">
+     <rect>
+      <x>192</x>
+      <y>221</y>
+      <width>133</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtGama">
+    <property name="geometry">
+     <rect>
+      <x>192</x>
+      <y>257</y>
+      <width>133</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>10</y>
+     <width>321</width>
+     <height>301</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Stage 1 Sonuçlar</string>
+   </property>
+   <widget class="QLineEdit" name="txtTs1">
+    <property name="geometry">
+     <rect>
+      <x>181</x>
+      <y>31</y>
+      <width>133</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtPs1">
+    <property name="geometry">
+     <rect>
+      <x>181</x>
+      <y>57</y>
+      <width>133</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtg1">
+    <property name="geometry">
+     <rect>
+      <x>181</x>
+      <y>83</y>
+      <width>133</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txta1">
+    <property name="geometry">
+     <rect>
+      <x>181</x>
+      <y>109</y>
+      <width>133</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtV1">
+    <property name="geometry">
+     <rect>
+      <x>181</x>
+      <y>135</y>
+      <width>133</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtH1">
+    <property name="geometry">
+     <rect>
+      <x>181</x>
+      <y>213</y>
+      <width>133</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtRt">
+    <property name="geometry">
+     <rect>
+      <x>181</x>
+      <y>239</y>
+      <width>133</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtRh">
+    <property name="geometry">
+     <rect>
+      <x>181</x>
+      <y>265</y>
+      <width>133</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtArea1">
+    <property name="geometry">
+     <rect>
+      <x>181</x>
+      <y>187</y>
+      <width>133</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtVx1">
+    <property name="geometry">
+     <rect>
+      <x>181</x>
+      <y>161</y>
+      <width>133</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>34</y>
+      <width>168</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ts1 (Giriş anındaki sıcaklık değeri) : </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>60</y>
+      <width>166</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ps1 (Giriş anındaki basınç değeri) : </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>85</y>
+      <width>171</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>                                                g1 : </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>111</y>
+      <width>161</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>                                                a1 : </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>213</y>
+      <width>161</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>                                               H1 : </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_13">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>187</y>
+      <width>161</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>                                          Area1 : </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_14">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>136</y>
+      <width>161</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>                                                V1 : </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_15">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>162</y>
+      <width>161</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>                                              Vx1 :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_17">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>264</y>
+      <width>161</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>                                               Rh : </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_18">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>238</y>
+      <width>161</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>                                                Rt : </string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

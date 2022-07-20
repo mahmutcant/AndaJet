@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>499</width>
+    <height>523</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Fırat Üniversitesi Anda Jetler</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>WhatsApp-Image-2022-05-18-at-12.38.31.ico</normaloff>WhatsApp-Image-2022-05-18-at-12.38.31.ico</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="image">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>500</width>
+      <height>500</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="resource.qrc">:/newPrefix/WhatsApp Image 2022-05-18 at 12.38.31.jpeg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>500</width>
+      <height>500</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actiongullo">
+   <property name="text">
+    <string>gullo</string>
+   </property>
+  </action>
+  <action name="actionAm_k">
+   <property name="text">
+    <string>Amık</string>
+   </property>
+  </action>
+  <action name="actionFurkan">
+   <property name="text">
+    <string>Furkan</string>
+   </property>
+  </action>
+  <action name="actionGullo">
+   <property name="text">
+    <string>Gullo</string>
+   </property>
+  </action>
+  <action name="actionAhmet">
+   <property name="text">
+    <string>Ahmet</string>
+   </property>
+  </action>
+  <action name="actionasdasd">
+   <property name="text">
+    <string>asdasd</string>
+   </property>
+  </action>
+  <action name="actionasdad">
+   <property name="text">
+    <string>asdad</string>
+   </property>
+  </action>
+  <action name="actionYarra_yemi">
+   <property name="text">
+    <string>Yarra yemiş</string>
+   </property>
+  </action>
+  <action name="actionGullo_2">
+   <property name="text">
+    <string>Gullo</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>

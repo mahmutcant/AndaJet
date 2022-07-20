@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>690</width>
+    <height>407</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Stage 2</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>WhatsApp-Image-2022-05-18-at-12.38.31.ico</normaloff>WhatsApp-Image-2022-05-18-at-12.38.31.ico</iconset>
+  </property>
+  <widget class="QPushButton" name="BtnOnceki">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>330</y>
+     <width>241</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Adobe Hebrew</family>
+     <pointsize>26</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>&lt; Önceki Sayfa</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="BtnSonraki">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>330</y>
+     <width>241</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Adobe Hebrew</family>
+     <pointsize>26</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Sonraki Sayfa &gt;</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>13</y>
+     <width>251</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>21</y>
+      <width>96</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ts1=T01</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtTs1_T01">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>23</y>
+      <width>131</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_18">
+    <property name="geometry">
+     <rect>
+      <x>1</x>
+      <y>79</y>
+      <width>18</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Vx2</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_19">
+    <property name="geometry">
+     <rect>
+      <x>1</x>
+      <y>108</y>
+      <width>40</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>P02/P01</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_20">
+    <property name="geometry">
+     <rect>
+      <x>1</x>
+      <y>138</y>
+      <width>66</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>R2/R1(Rt/Rh)</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_21">
+    <property name="geometry">
+     <rect>
+      <x>1</x>
+      <y>167</y>
+      <width>40</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Vx2/Vx1</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtVx2">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>80</y>
+      <width>131</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtP02_P01">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>108</y>
+      <width>131</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtR2">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>136</y>
+      <width>131</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtVx2_Vx1">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>164</y>
+      <width>131</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtSes">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>50</y>
+      <width>131</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_41">
+    <property name="geometry">
+     <rect>
+      <x>1</x>
+      <y>50</y>
+      <width>104</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>15 derecedeki ses hızı</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLineEdit" name="txtP02">
+   <property name="geometry">
+    <rect>
+     <x>321</x>
+     <y>130</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtTs2">
+   <property name="geometry">
+    <rect>
+     <x>321</x>
+     <y>46</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtRm2">
+   <property name="geometry">
+    <rect>
+     <x>321</x>
+     <y>158</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtV2">
+   <property name="geometry">
+    <rect>
+     <x>321</x>
+     <y>102</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtM2">
+   <property name="geometry">
+    <rect>
+     <x>321</x>
+     <y>18</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txta2">
+   <property name="geometry">
+    <rect>
+     <x>321</x>
+     <y>74</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>281</x>
+     <y>21</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>M2</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>281</x>
+     <y>49</y>
+     <width>17</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ts2</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>281</x>
+     <y>104</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>V2</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>281</x>
+     <y>76</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>a2</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>281</x>
+     <y>186</y>
+     <width>18</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Vx2</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>281</x>
+     <y>159</y>
+     <width>21</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Rm2</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>281</x>
+     <y>131</y>
+     <width>18</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>P02</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>281</x>
+     <y>214</y>
+     <width>17</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ps2</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>281</x>
+     <y>269</y>
+     <width>18</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Vy2</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>281</x>
+     <y>241</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>g2</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_12">
+   <property name="geometry">
+    <rect>
+     <x>462</x>
+     <y>54</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>U2</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_13">
+   <property name="geometry">
+    <rect>
+     <x>462</x>
+     <y>115</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>W2</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_14">
+   <property name="geometry">
+    <rect>
+     <x>462</x>
+     <y>84</y>
+     <width>22</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Wy2</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_15">
+   <property name="geometry">
+    <rect>
+     <x>462</x>
+     <y>23</y>
+     <width>24</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>alfa2</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_16">
+   <property name="geometry">
+    <rect>
+     <x>462</x>
+     <y>206</y>
+     <width>17</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Rt2</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_17">
+   <property name="geometry">
+    <rect>
+     <x>462</x>
+     <y>267</y>
+     <width>28</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>beta2</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_22">
+   <property name="geometry">
+    <rect>
+     <x>462</x>
+     <y>176</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>H2</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_23">
+   <property name="geometry">
+    <rect>
+     <x>462</x>
+     <y>145</y>
+     <width>29</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Area2</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_24">
+   <property name="geometry">
+    <rect>
+     <x>462</x>
+     <y>237</y>
+     <width>19</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Rh2</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtVx2_2">
+   <property name="geometry">
+    <rect>
+     <x>321</x>
+     <y>186</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtPs2">
+   <property name="geometry">
+    <rect>
+     <x>321</x>
+     <y>214</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtg2">
+   <property name="geometry">
+    <rect>
+     <x>321</x>
+     <y>242</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtVy2">
+   <property name="geometry">
+    <rect>
+     <x>321</x>
+     <y>270</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtRt2">
+   <property name="geometry">
+    <rect>
+     <x>501</x>
+     <y>205</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtBeta2">
+   <property name="geometry">
+    <rect>
+     <x>501</x>
+     <y>265</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtRh2">
+   <property name="geometry">
+    <rect>
+     <x>501</x>
+     <y>235</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtU2">
+   <property name="geometry">
+    <rect>
+     <x>501</x>
+     <y>55</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtH2">
+   <property name="geometry">
+    <rect>
+     <x>501</x>
+     <y>175</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtW2">
+   <property name="geometry">
+    <rect>
+     <x>501</x>
+     <y>115</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtArea2">
+   <property name="geometry">
+    <rect>
+     <x>501</x>
+     <y>145</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtAlfa2">
+   <property name="geometry">
+    <rect>
+     <x>501</x>
+     <y>25</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtWy2">
+   <property name="geometry">
+    <rect>
+     <x>501</x>
+     <y>85</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="p01">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>300</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="M1">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>330</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="alfa">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>300</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Rm">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>330</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="m1">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>360</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="gama">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>360</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Vx1">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>300</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
